@@ -1,0 +1,17 @@
+figure {
+    margin: 20px;
+    padding: 20px;
+    border: 8px;
+    border-color: grey;
+    border-style: solid;
+}
+.figCaption {
+    text-align: center;
+    font-size: 25px;
+    font-style: bold;
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
