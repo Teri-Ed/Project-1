@@ -9,4 +9,5 @@ Technologies Used ( .html , .css ):
 Ideas for future improvement (minimum of 3): 
     1. I would like to add more to my portfolio page.
     2. I would like to build the backend so that my form works.
-    3. I would like to work on the design so that it is cleaner and easier on the eye. 
+    3. I would like to work on the design so that it is cleaner and easier on the eye.
+This is my readme.md file.
