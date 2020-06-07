@@ -58,3 +58,19 @@ li.navlist a:hover {
       width: 100%;
     }
   }
+  .workexperience {
+    padding: 15px;
+    border-style: double;
+    border-color: #2f4f4f
+}
+.worktitle {
+    text-align: center;
+}
+.workdescription {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.worklist {
+    padding-left: 100px;
+    padding-right: 100px;
+}
