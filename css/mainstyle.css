@@ -6,7 +6,7 @@ header {
     border-color: #fffff0;
     border-style: double
 }
-header > h1, h2 {
+header > h1, h4 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     color: #2f4f4f;
@@ -40,16 +40,18 @@ li.navlist a {
 li.navlist a:hover {
     background-color: #000000;
 }
+.row {
+    margin-top: 2.5px;
+    border-style: double;
+    border-color: #2f4f4f
+}
 .columnleft {
     float: left;
     width: 46%;
-  }
+}
 #summary {
     padding-right: 50px;
     text-align: justify;
-}
-.education {
-    text-align: center;
 }
   /* Clear floats after the columns */
   .row:after {
