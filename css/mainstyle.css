@@ -31,8 +31,30 @@ li.navlist a {
     padding: 15px 130px;
     text-decoration: none;
 }
-
 /* Change the link black on hover */
 li.navlist a:hover {
     background-color: #000000;
 }
+.columnleft {
+    float: left;
+    width: 46%;
+  }
+#summary {
+    padding-right: 50px;
+    text-align: justify;
+}
+.education {
+    text-align: center;
+}
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
