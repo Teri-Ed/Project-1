@@ -1,0 +1,39 @@
+header {
+    padding: 20px;
+    background-color: #00bfff;
+    border-width: 6px;
+    border-color: #fffff0;
+    border-style: double
+}
+header > h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #2f4f4f;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2f4f4f;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #fffff0;
+    text-align: center;
+    text-size-adjust: double;
+    padding: 15px 130px;
+    text-decoration: none;
+  }
+  
+  /* Change the link black on hover */
+  li a:hover {
+    background-color: #000000;
+  }
