@@ -13,10 +13,11 @@ header > h1, h4 {
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2f4f4f;
 }
 .navigation {
     margin-top: 2.5px;
-    margin-bottom: 2.5px;
+    margin-bottom: 5px;
 }
 ul.navigation {
     list-style-type: none;
@@ -65,6 +66,15 @@ li.navlist a:hover {
       width: 100%;
     }
   }
+section#carousel > figure > img {
+    display: none;
+    margin: 0px auto;
+}
+section#carousel > figure.visible > img {
+    display: block;    
+    position: relative;
+    overflow: hidden;  
+}
 .workexperience {
     margin-top: 2.5px;
     padding: 15px;
