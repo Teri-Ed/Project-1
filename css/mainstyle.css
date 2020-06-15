@@ -1,3 +1,7 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    color: #2f4f4f;
+}
 header {
     margin-bottom: 2.5px;
     padding: 20px;
@@ -7,13 +11,7 @@ header {
     border-style: double
 }
 header > h1, h4 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    color: #2f4f4f;
-}
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #2f4f4f;
 }
 .navigation {
     margin-top: 2.5px;
@@ -34,7 +32,7 @@ li.navlist a {
     color: #fffff0;
     text-align: center;
     text-size-adjust: double;
-    padding: 15px 130px;
+    padding: 10px 140.5px;
     text-decoration: none;
 }
 /* Change the link black on hover */
@@ -44,7 +42,7 @@ li.navlist a:hover {
 .row {
     margin-top: 2.5px;
     border-style: double;
-    border-color: #2f4f4f
+    border-color: #2f4f4f;
 }
 .columnleft {
     float: left;
@@ -75,22 +73,17 @@ section#carousel > figure.visible > img {
     position: relative;
     overflow: hidden;  
 }
-.workexperience {
-    margin-top: 2.5px;
-    padding: 15px;
-    border-style: double;
-    border-color: #2f4f4f
+#summarytitle {
+    background-color: #fffff0;
 }
-.worktitle {
-    text-align: center;
+#summary {
+    background-color: #fffff0;
 }
-.workdescription {
-    padding-left: 50px;
-    padding-right: 50px;
+#educationtitle {
+    background-color: #fffff0;
 }
-.worklist {
-    padding-left: 100px;
-    padding-right: 100px;
+.education {
+    background-color: #fffff0;
 }
 .contactform {
     margin-top: 2.5px;
