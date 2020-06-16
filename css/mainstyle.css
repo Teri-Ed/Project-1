@@ -57,21 +57,18 @@ li.navlist a:hover {
     content: "";
     display: table;
     clear: both;
-  }
+}
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .column {
       width: 100%;
     }
-  }
-section#carousel > figure > img {
-    display: none;
-    margin: 0px auto;
 }
-section#carousel > figure.visible > img {
-    display: block;    
-    position: relative;
-    overflow: hidden;  
+.carousel-inner {
+    text-align: center;
+}
+.carousel .item > img {
+    display: inline-block;
 }
 #summarytitle {
     background-color: #fffff0;
