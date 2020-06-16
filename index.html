@@ -11,18 +11,20 @@
             <h1>Hi, I'm Teri.</h1>
             <h4>Community Organizer - Web Developer - Environmental Biologist</h4>
         </header>
-        <nav>
-            <ul  class="navigation">
-                <li class="navlist"><a href="index.html" alt="Homepage">Home</a></li>
-                <li class="navlist"><a href="work.html" alt="Work Experience">Work Experience</a></li>
-                <li class="navlist"><a href="web.html" alt="Web Design Portfolio">Portfolio</a></li>
-                <li class="navlist"><a href="contact.html" alt="Contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div>
+            <nav>
+                <ul  class="navigation">
+                    <li class="navlist"><a href="index.html" alt="Homepage">Home</a></li>
+                    <li class="navlist"><a href="work.html" alt="Work Experience">Work Experience</a></li>
+                    <li class="navlist"><a href="web.html" alt="Web Design Portfolio">Portfolio</a></li>
+                    <li class="navlist"><a href="contact.html" alt="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
         <hr/>
-        <div class="row">
-            <div class="columnleft">
-                <section id="carousel" class="carousel slide" data-ride="carousel">
+        <div class="container">
+            <div class="row">
+                <section class="col-1-2" id="carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <figure class="item active">
                             <img src="img/streamside.JPG" alt="Stream Monitoring" width="500px" height="350px" class="image 1">
@@ -32,21 +34,21 @@
                         </figure>
                     </div>
                 </section>
-            </div>
-            <div class="columnright">
-                <h2 id="summarytitle">Personal Summary</h2>
-                <p id="summary">
-                    Data driven and detail oriented scientist with diverse professional training in research, 
-                    education, and product development. Strong engineering background having designed, built, 
-                    and managed a passive solar aquaponics greenhouse for my thesis project. Social justice and 
-                    environmental advocate with experience in minority student empowerment, water and animal 
-                    rights protection, and sustainable food production. Successful science educator. 
-                </p>
-                <section>
-                    <h2  id="educationtitle">Education</h2>
-                    <p class="education">University of Utah -M.S. - Environmental Science - 2015</p>
-                    <p class="education">University of Utah - B.S. - Biology - 2012</p>
-                </section>
+                <div class="col-2-2">
+                    <h2 id="summarytitle">Personal Summary</h2>
+                    <p id="summary">
+                        Data driven and detail oriented scientist with diverse professional training in research, 
+                        education, and product development. Strong engineering background having designed, built, 
+                        and managed a passive solar aquaponics greenhouse for my thesis project. Social justice and 
+                        environmental advocate with experience in minority student empowerment, water and animal 
+                        rights protection, and sustainable food production. Successful science educator. 
+                    </p>
+                    <section>
+                        <h2  id="educationtitle">Education</h2>
+                        <p class="education">University of Utah -M.S. - Environmental Science - 2015</p>
+                        <p class="education">University of Utah - B.S. - Biology - 2012</p>
+                    </section>
+                </div>
             </div>
         </div>
     </body>

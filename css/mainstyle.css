@@ -39,29 +39,51 @@ li.navlist a {
 li.navlist a:hover {
     background-color: #000000;
 }
+/*Layout Styles*/
+.container {
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+}
 .row {
-    margin-top: 2.5px;
-    border-style: double;
-    border-color: #2f4f4f;
+    margin-right: -15px;
+    margin-left: -15px;
 }
-.columnleft {
-    float: left;
-    width: 46%;
-}
-#summary {
-    padding-right: 50px;
-    text-align: justify;
-}
-  /* Clear floats after the columns */
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
 }
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
+[class*='col-'] {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Media Query excludes extra small devices and includes small and above */
+@media (min-width: 48em) {
+    [class*='col-'] {
+        float: left;
+    }
+    /* Column First-Half */
+    .col-1-2 {
+        width: 50%;
+    }
+    /* Column Second-Half */
+    .col-2-2 {
+        width: 50%;
+    }
+}
+@media (min-width: 48em) {
+    .pull-right-sm {
+        float:right;
+    }
+}
+@media only screen and (max-width : 47.9375em) {
+    .remove-gutter-xs {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 .carousel-inner {
